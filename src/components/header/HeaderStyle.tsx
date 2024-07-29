@@ -49,10 +49,10 @@ export default styled.header`
   }
 
   .active {
-    transform: translateX(0) !important;
+    transform: translateY(0) !important;
   }
-  button,
-  .overlay {
+
+  button {
     display: none;
   }
   button {
@@ -69,30 +69,29 @@ export default styled.header`
       position: absolute;
       top: 100px;
       left: 0;
-      transform: translateX(100%);
+      transform: translateY(-160%);
       transition: all 0.5s ease;
       flex-direction: column;
       width: 100%;
       padding: 1em;
-      background-color: #191919;
+      background-color: var(--primary-color);
       align-items: flex-end;
-
+      gap: 0;
       z-index: 11; /* Ensure it appears above the overlay */
     }
 
     .cont_links a {
       border-radius: 0 !important;
       width: 96%;
+      color: black;
+    }
+    .cont_links button {
+      color: black;
     }
 
     .cont_links a:not(:last-child) {
       border-bottom: 1px solid;
     }
-
-    /* .cont_links button,
-    .cont_links a {
-      color: black !important;
-    } */
 
     button {
       display: block;
@@ -109,7 +108,7 @@ export default styled.header`
       left: 0;
       width: 100%;
       height: 100%;
-      background: rgba(255, 255, 255, 0.8);
+      background: rgba(0, 0, 0, 0.8);
       z-index: 10;
     }
   }

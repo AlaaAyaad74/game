@@ -55,7 +55,7 @@ export default styled.section`
   @media (max-width: 470px) {
     .btn_cont a {
       font-size: 1.4rem;
-      width: 140px;
+      width: 160px;
     }
     .content {
       width: 90%;
