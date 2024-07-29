@@ -1,0 +1,22 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Define the clip path for the PS5 controller -->
+  <defs>
+    <clipPath id="ps5-controller">
+      <path d="M50 90 Q40 70 60 50 Q80 30 120 30 Q160 30 180 50 Q200 70 190 90 Q180 110 160 110 Q140 110 120 130 Q100 110 80 110 Q60 110 50 90 Z"/>
+    </clipPath>
+  </defs>
+
+  <!-- Background to be clipped -->
+  <rect width="200" height="200" fill="url(#gradient)" clip-path="url(#ps5-controller)" />
+
+  <!-- Gradient Definition -->
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00c6ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0072ff;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Outline of the PS5 controller for reference -->
+  <path d="M50 90 Q40 70 60 50 Q80 30 120 30 Q160 30 180 50 Q200 70 190 90 Q180 110 160 110 Q140 110 120 130 Q100 110 80 110 Q60 110 50 90 Z" fill="none" stroke="#282828" stroke-width="2" />
+</svg>
