@@ -64,6 +64,7 @@ export default styled.section`
   }
   @media (max-width: 799px) {
     grid-template-columns: 1fr;
+    overflow-x: hidden;
     .left_cont img {
       width: 400px;
     }

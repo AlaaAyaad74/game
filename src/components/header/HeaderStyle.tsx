@@ -52,7 +52,8 @@ export default styled.header`
     transform: translateY(0) !important;
   }
 
-  button {
+  button,
+  .overlay {
     display: none;
   }
   button {
