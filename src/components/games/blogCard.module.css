@@ -1,0 +1,22 @@
+.blog_card_cont {
+  display: flex;
+  flex-direction: column;
+  width: 330px;
+}
+.blog_card_cont img {
+  width: 100%;
+  height: 333px;
+  border-radius: 10px;
+}
+.blog_card_cont h2 {
+  font-size: 24px;
+  font-weight: 500;
+
+  margin: 15px 0 20px 0;
+}
+.blog_card_cont p {
+  font-size: 17px;
+  font-weight: 400;
+
+  width: 260px;
+}
