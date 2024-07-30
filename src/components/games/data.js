@@ -1,4 +1,4 @@
-export const  gameData = [
+export const gameData = [
   {
     image: "./assets/1.png",
     title: "سـؤال و جـواب",
@@ -32,7 +32,7 @@ export const  gameData = [
     image: "./assets/6.jpg",
     title: "سـدد الـكـورة",
     description:
-      "ختبر مهاراتك الكروية وصوب الكرة نحو الهدف لتحقيق أعلى النقاط!",
+      "اختبر مهاراتك الكروية وصوب الكرة نحو الهدف لتحقيق أعلى النقاط!",
   },
   {
     image: "./assets/7.jpg",
