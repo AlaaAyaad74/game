@@ -31,14 +31,22 @@ function Blog() {
   return (
     <>
       <div className={styles.main__Cont} id="BLOG">
-        <h1 style={{ margin: "20px 0  40px 0" }}>الألـعـاب</h1>
+        <h1
+          style={{
+            margin: "20px 0  40px 0",
+            fontSize: "4rem",
+            fontWeight: "900",
+          }}
+        >
+          الـبـاقـات:
+        </h1>
 
         <div className={styles.slider_container} ref={translateRef}>
           {gameData.map((item, index) => (
             <BlogCard
               image={item.image}
               title={item.title}
-              description={item.description}
+              // description={item.description}
               index={index}
               key={index}
             />
