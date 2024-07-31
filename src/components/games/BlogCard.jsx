@@ -41,7 +41,7 @@ function BlogCard({ image, title, index }) {
         </div>
       </div>
       <h2>{title}</h2>
-      <p className="flex">
+      <p className={`flex ${styles.last_row}`}>
         <p>3.5 دك</p> <a href="/">شـراء</a>
       </p>
     </div>

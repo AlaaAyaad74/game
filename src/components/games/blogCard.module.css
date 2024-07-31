@@ -36,10 +36,10 @@
 
   margin: 15px 0 20px 0;
 }
-.blog_card_cont p {
+.blog_card_cont .last_row {
   font-size: 17px;
   font-weight: 400;
-
+  justify-content: space-between;
   width: 90%;
   margin: auto;
 }
